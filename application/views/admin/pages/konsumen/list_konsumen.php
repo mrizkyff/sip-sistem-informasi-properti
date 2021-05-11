@@ -40,6 +40,7 @@
                     <th>Nomor Identitas</th>
                     <th>Telp/Hp</th>
                     <th>E-mail</th>
+                    <th>Tanggal</th>
                     <th>Aksi</th>
                   </tr>
                   </thead>
@@ -52,6 +53,7 @@
                     <th>Nomor Identitas</th>
                     <th>Telp/Hp</th>
                     <th>E-mail</th>
+                    <th>Tanggal</th>
                     <th>Aksi</th>
                   </tr>
                   </tfoot>
