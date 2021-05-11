@@ -42,6 +42,7 @@ $(document).ready(function () {
             { "data": "no_identitas" },
             { "data": "telp_diri" },
             { "data": "email" },
+            { "data": "tgl_created" },
             { "data": "aksi", "orderable":false },
             // dibikin off karena untuk search nya, kalau gadikasih ini gabisa cari dari nim dan nama dan judul soale satu kolom banyak data
             // { "data": "penulis", "visible": false, "searchable": true },
@@ -49,7 +50,7 @@ $(document).ready(function () {
             // { "data": "judul", "visible": false, "searchable": true },
         ],
         // order menurut urutan kolom
-        order: [[0, 'desc']],
+        order: [[7, 'desc']],
         rowCallback: function (row, data, iDisplayIndex) {
             var info = this.fnPagingInfo();
             var page = info.iPage;
