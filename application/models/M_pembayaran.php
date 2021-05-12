@@ -4,7 +4,7 @@
         // untuk menampilkan data ke dtatables dengan serverside
 		function json() {
 			// jangan pakai bintang nanti tidak bisa search
-			$this->datatables->select('tb_pembayaran.id, tb_pembayaran.keterangan, tipe_bayar, jml_bayar, tgl_pembayaran, tb_kepemilikan.jml_dp, tb_konsumen.nama_lengkap, tb_block_kavling.block_kavling, tb_asset.nama_asset');
+			$this->datatables->select('tb_pembayaran.id, tb_pembayaran.keterangan, tipe_bayar, jml_bayar, tgl_pembayaran, tb_konsumen.nama_lengkap, tb_block_kavling.block_kavling, tb_asset.nama_asset');
 			$this->datatables->from('tb_pembayaran');
             $this->datatables->join('tb_kepemilikan', 'tb_pembayaran.id_kepemilikan = tb_kepemilikan.id');
             $this->datatables->join('tb_konsumen', 'tb_kepemilikan.id_pemilik = tb_konsumen.id');
