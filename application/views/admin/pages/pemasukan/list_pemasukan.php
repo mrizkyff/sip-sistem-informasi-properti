@@ -41,6 +41,7 @@
                   </thead>
                   <tbody>
                     <?php
+                        // pembayaran
                         $no = 1;
                         foreach ($pembayaran as $pmbyrn) {
                     ?>
@@ -52,6 +53,18 @@
                         </tr>
                     <?php
                             $no = $no+1;
+                        }
+                        
+                        // pemasukan
+                        foreach ($pemasukan as $pmskn) {
+                    ?>
+                        <tr>
+                            <td><?= $no ?></td>
+                            <td><?= $pmskn->keterangan ?></td>
+                            <td><?= $pmskn->jumlah ?></td>
+                            <td><?= $pmskn->tgl_pemasukan ?></td>
+                        </tr>
+                    <?php
                         }
                     ?>
                   </tbody>

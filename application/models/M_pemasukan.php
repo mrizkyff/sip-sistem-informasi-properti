@@ -11,7 +11,7 @@
             return $this->db->get()->result();
         }
         public function get_all_pemasukan(){
-
+            return $this->db->get('tb_pemasukan')->result();
         }
     }
     

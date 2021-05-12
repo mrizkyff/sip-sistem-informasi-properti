@@ -173,7 +173,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url()?>admin/index" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -182,7 +182,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url()?>admin/konsumen" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
                 Konsumen
@@ -190,7 +190,15 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url()?>admin/kepemilikan" class="nav-link">
+              <i class="nav-icon fas fa-id-card"></i>
+              <p>
+                Kepemilikan
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url()?>admin/asset" class="nav-link">
               <i class="nav-icon fas fa-map"></i>
               <p>
                 Asset
@@ -198,7 +206,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url()?>admin/blok" class="nav-link">
               <i class="nav-icon fas fa-map-marked-alt"></i>
               <p>
                 Blok Kavling
@@ -206,7 +214,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url()?>" class="nav-link">
               <i class="nav-icon fas fa-dollar-sign"></i>
               <p>
                 Keuangan
@@ -215,21 +223,21 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url()?>admin/pemasukan" class="nav-link">
                   <i class="fas fa-wallet nav-icon"></i>
                   <p>Daftar Pemasukan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url()?>" class="nav-link">
                   <i class="fas fa-comment-dollar nav-icon"></i>
                   <p>Daftar Pengeluaran</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url()?>admin/pembayaran" class="nav-link">
                   <i class="fas fa-money-bill-wave nav-icon"></i>
-                  <p>Transaksi</p>
+                  <p>Pembayaran</p>
                 </a>
               </li>
             </ul>
